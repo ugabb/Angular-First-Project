@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { MatTableModule } from '@angular/material/table';
 
 
-
 @NgModule({
-  exports:[MatTableModule]
+  exports: [MatTableModule, ],
 })
-export class AppMaterialModule { }
+export class AppMaterialModule {}
